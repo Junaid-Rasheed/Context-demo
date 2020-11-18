@@ -1,9 +1,11 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Parent from './Parent'
 import ValueContext from './ValueContext';
 function App() {
 
-let value=45;
+let value = useState(23);
+  
+//let val=75;
 
   return (
      <ValueContext.Provider value={value}>

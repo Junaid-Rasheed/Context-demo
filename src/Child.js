@@ -6,7 +6,8 @@ function Child(){
 
     return(
 <div>
-    name is {value}
+    name is {value[0]}
+    <button onClick={()=>{value[1](++value[0])}}>press Button</button>
 </div>
 
     )
